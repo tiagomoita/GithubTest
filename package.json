@@ -1,0 +1,48 @@
+{
+  "name": "GithubApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "babel-preset-react-native": "^4.0.1",
+    "jest-fetch-mock": "^3.0.3",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-elements": "^3.3.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.1.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.0.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-navigation-tabs": "^2.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/runtime": "7.13.10",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-native": "^7.2.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "^17.0.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!react-native|react-clone-referenced-element|react-navigation)"
+    ] 
+  }
+}
