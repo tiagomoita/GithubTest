@@ -1,13 +1,40 @@
 # GithubTest
 
-fazer download do projeto
-navegar para o diretorio do projeto
-npm install
-abrir a pasta android no android studio, e clicar em Build -> Make Project
-dentro do diretorio do projeto, clicar em npx react-native run-android
+# About the project
+Github Aptitude Test
+
+# How to run the project / Build instructions:
+
+1 - Must have installed: Android Studio, NodeJS
+
+2 - Download this folder, and extract the zip file
+
+3 - Open the terminal, and navigate to the project directory
+
+4 - Inside the project run the command: npm install
+
+5 - Right after, open Android Studio and open the android project folder
+
+6 - Inside Android Studio, in the toolbar you will find: Build -> Make Project, Click !
+
+7 - Wait .. Wait ..
+
+8 - Then create a AVD in Android Studio, at your choice, but is recommended to use the same SDK, i leave the description down below about the one that i used for my project.
+
+9 - After the AVD been initialized, go back to the same terminal we were in the step 1, and type: npx react-native run-android.
+
+10 - and BOOM ! Wait for the magic to happen. Good Luck ! :D
+
+## Layout mobile
+
+<img src="https://github.com/tiagomoita/GithubTest/blob/main/assets/1.png" width="300" height="548" /> <img src="https://github.com/tiagomoita/GithubTest/blob/main/assets/2.png" width="300" height="548" />
+<img src="https://github.com/tiagomoita/GithubTest/blob/main/assets/3.png" width="300" height="548" />
+<img src="https://github.com/tiagomoita/GithubTest/blob/main/assets/4.png" width="300" height="548" />
+<img src="https://github.com/tiagomoita/GithubTest/blob/main/assets/5.png" width="300" height="548" />
+<img src="https://github.com/tiagomoita/GithubTest/blob/main/assets/6.png" width="300" height="548" />
 
 
-DESCRIÇAO DO AVD DO ANDROID STUDIO
+# Description of the AVD from Android Studio
 
 Name: Nexus_5_API_29
 CPU/ABI: Google Play Intel Atom (x86)
@@ -105,3 +132,7 @@ hw.sensors.orientation: yes
 avd.ini.encoding: UTF-8
 
 hw.gpu.enabled: yes
+
+# Author
+- Tiago Moita
+- https://www.linkedin.com/in/tiago-moita-a96692204/
