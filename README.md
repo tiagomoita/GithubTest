@@ -1,7 +1,7 @@
 # GithubTest
 
 # About the project
-Github Aptitude Test
+Github Aptitude Test, to search for users/organizations in Github and show their respectives repositories.
 
 # How to run the project / Build instructions:
 
